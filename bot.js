@@ -6,7 +6,7 @@ var Twitter = new twit(config);
 
 var retweet = function () {
 	var paramms = {
-		q:'#nodejs, #Nodejs , #angularjs , #angular2 , #MongoDB , #ExpressJS',
+		q:'#nodejs, #Nodejs , #angularjs , #angular2',
 		result_type: 'recent',
 		lang: 'en'
 	}
