@@ -23,7 +23,7 @@ var retweet = function () {
 				if(res) {
 					console.log('Retweeted!');
 				}
-				if(err) {
+				else {
 					console.log('error retweeting');
 				}
 			});
